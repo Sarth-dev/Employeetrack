@@ -1,7 +1,9 @@
-@import "tailwindcss";
-@tailwind base;
-@tailwind components;
+/* ✅ NEW - Required for Tailwind v4 */
+@import "tailwindcss/preflight";
 @tailwind utilities;
+
+@import "tailwindcss";
+
 
 :root {
   --background: #ffffff;
